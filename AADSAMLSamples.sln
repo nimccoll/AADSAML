@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetAADSAML", "ASPNetAADSAML\ASPNetAADSAML.csproj", "{18FA1860-D7D2-4D7E-B66F-0E13DCE4867A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetB2CSAML", "ASPNetB2CSAML\ASPNetB2CSAML.csproj", "{2D95CD8D-E02F-488B-AA79-576E518909A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Policies", "Policies", "{E76B00FF-0E80-4C00-9B05-0BA116418DAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SAMLServiceProvider", "SAMLServiceProvider", "{DAE944F1-E36F-453A-8191-F75680699ABE}"
+	ProjectSection(SolutionItems) = preProject
+		SAMLServiceProvider\SignUpOrSignin.xml = SAMLServiceProvider\SignUpOrSignin.xml
+		SAMLServiceProvider\TrustFrameworkExtensions.xml = SAMLServiceProvider\TrustFrameworkExtensions.xml
+		SAMLServiceProvider\unified.cshtml = SAMLServiceProvider\unified.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocialAndLocalAccounts", "SocialAndLocalAccounts", "{CF0B6EAE-3243-4708-AACA-B09EF89850AA}"
+	ProjectSection(SolutionItems) = preProject
+		SocialAndLocalAccounts\PasswordReset.xml = SocialAndLocalAccounts\PasswordReset.xml
+		SocialAndLocalAccounts\ProfileEdit.xml = SocialAndLocalAccounts\ProfileEdit.xml
+		SocialAndLocalAccounts\SignUpOrSignin.xml = SocialAndLocalAccounts\SignUpOrSignin.xml
+		SocialAndLocalAccounts\SignUpOrSigninnimccollOrg.xml = SocialAndLocalAccounts\SignUpOrSigninnimccollOrg.xml
+		SocialAndLocalAccounts\SignUpOrSigninSAML.xml = SocialAndLocalAccounts\SignUpOrSigninSAML.xml
+		SocialAndLocalAccounts\TrustFrameworkBase.xml = SocialAndLocalAccounts\TrustFrameworkBase.xml
+		SocialAndLocalAccounts\TrustFrameworkExtensions.xml = SocialAndLocalAccounts\TrustFrameworkExtensions.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18FA1860-D7D2-4D7E-B66F-0E13DCE4867A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FA1860-D7D2-4D7E-B66F-0E13DCE4867A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FA1860-D7D2-4D7E-B66F-0E13DCE4867A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FA1860-D7D2-4D7E-B66F-0E13DCE4867A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D95CD8D-E02F-488B-AA79-576E518909A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D95CD8D-E02F-488B-AA79-576E518909A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D95CD8D-E02F-488B-AA79-576E518909A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D95CD8D-E02F-488B-AA79-576E518909A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAE944F1-E36F-453A-8191-F75680699ABE} = {E76B00FF-0E80-4C00-9B05-0BA116418DAD}
+		{CF0B6EAE-3243-4708-AACA-B09EF89850AA} = {E76B00FF-0E80-4C00-9B05-0BA116418DAD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50BB4BFF-25CF-4C9C-8E72-67042CD9F172}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nimccoll.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ASPNetAADSAML\\ASPNetAADSAML.csproj
+		SccProjectName1 = ASPNetAADSAML
+		SccLocalPath1 = ASPNetAADSAML
+		SccProjectUniqueName2 = ASPNetB2CSAML\\ASPNetB2CSAML.csproj
+		SccProjectName2 = ASPNetB2CSAML
+		SccLocalPath2 = ASPNetB2CSAML
+	EndGlobalSection
+EndGlobal
